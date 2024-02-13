@@ -14,18 +14,18 @@ package com.example.jaba.m1.s2;
  * @author Emanuele Galli
  */
 public class Simple {
-	/**
-	 * Just to say hello
-	 * 
-	 * @param args when passed, the first argument is printed
-	 */
-	public static void main(String[] args) {
-		// output a string to console
-		System.out.print("Hello, i'm new on GitHub! ");
+    /**
+     * Just to say hello
+     * 
+     * @param args when passed, the first argument is printed
+     */
+    public static void main(String[] args) {
+        // output a string to console
+        System.out.print("Hello, i'm new on GitHub! ");
 
-		// output is based on input arguments
-		if (args.length == 1) {
-			System.out.println(args[0]);
-		}
-	}
+        // output is based on input arguments
+        if (args.length == 1) {
+            System.out.println(args[0]);
+        }
+    }
 }
